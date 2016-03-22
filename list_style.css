@@ -1,0 +1,35 @@
+ul li:first-child {
+	background-color: #0000EE;
+	color: #FFFFFF;
+}
+
+.second { 
+	background-color:  #FF0000;
+	color: #FFFFFF;
+}
+
+#third { 
+	color: #000000;
+	background-color: #FFFF00;
+}
+
+ul li:nth-child(4) {
+	background-color: #FFA500;
+	color: #FFFFFF;
+}
+
+ul li:nth-child(7n-2){
+	background-color: #00FF00;
+	color: #FFFFFF;
+}
+
+ul li:nth-child(10n-4){
+	background-color: #FFC0CB;
+	color: #FFFFFF;
+}
+
+
+ul li:last-child {
+	background-color: #000000;
+	color: #FFFFFF;
+}
