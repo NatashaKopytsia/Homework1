@@ -13,19 +13,25 @@ ul li:first-child {
 	background-color: #FFFF00;
 }
 
-ul li:nth-child(4) {
+
+li+li {
 	background-color: #FFA500;
 	color: #FFFFFF;
 }
 
-ul li:nth-child(7n-2){
+ul li:nth-child(5){
 	background-color: #00FF00;
 	color: #FFFFFF;
 }
 
-ul li:nth-child(10n-4){
+p {
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+b~p{	
 	background-color: #FFC0CB;
-	color: #FFFFFF;
+	color: #FFFFFF; 
 }
 
 
